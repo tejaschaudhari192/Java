@@ -1,3 +1,4 @@
+package noobie;
 public class datatypes {
 	public static void main(String[] args) {
 		byte bt = 8; //-128 -> 127 | 256 | 1 byte

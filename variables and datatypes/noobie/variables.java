@@ -1,3 +1,4 @@
+package noobie;
 public class variables {
 	public static void main(String[] args) {
 		int a = 0, b = 6;
