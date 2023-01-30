@@ -20,8 +20,8 @@ public class input_in_java {
 
 		System.out.print("Enter number : ");
 		float decimal = scan.nextFloat();
-		System.out.print("your number : ");
-		System.out.println(decimal);
+		System.out.print("your number : " + decimal);
+		System.out.println();
 
 		boolean is = scan.nextBoolean();
 		System.out.println(is);
