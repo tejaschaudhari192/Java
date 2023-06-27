@@ -14,7 +14,7 @@ public class more_patterns {
 			System.out.println();
 		}
 	}
-
+	
 	public static void half_pyramid(int rows) {
 		for (int i = 1; i <= rows; i++) {
 			System.out.print(" ");
@@ -194,3 +194,6 @@ public class more_patterns {
 	}
 //Coded By Tejas
 }
+
+
+
