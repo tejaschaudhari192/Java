@@ -12,5 +12,6 @@ public class with_para {
 		System.out.print("Enter sno : ");
 		int n2 = scan.nextInt();
 		System.out.println("Sum is : " + add_of_two(n1, n2));
+		scan.close();
 	}
 }

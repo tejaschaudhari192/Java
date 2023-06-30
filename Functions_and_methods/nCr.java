@@ -1,5 +1,3 @@
-package Functions_and_methods;
-
 // Date : 07/01/23
 
 import java.util.*;
@@ -21,5 +19,6 @@ public class nCr {
 		int ncr = fact(n) / (fact(r)*fact(n - r));
 
 		System.out.println(ncr);
+		scan.close();
 	}
 }

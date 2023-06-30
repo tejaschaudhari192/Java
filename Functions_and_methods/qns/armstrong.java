@@ -15,5 +15,6 @@ public class armstrong {
             sum += Math.pow(rem,l);
         }
         System.out.println(sum==bkp);
+        scan.close();
     }
 }

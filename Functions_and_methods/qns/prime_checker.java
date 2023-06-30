@@ -8,6 +8,7 @@ public class prime_checker {
         System.out.print("Enter the number : ");
         int num = scan.nextInt();
         System.out.println(isPrime(num));
+        scan.close();
     }
     static boolean isPrime(int num) {
         for (int i = 2; i <= (num/2 + 1); i++)

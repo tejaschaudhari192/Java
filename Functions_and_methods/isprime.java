@@ -17,5 +17,6 @@ public class isprime {
 		System.out.print("Enter number : ");
 		int num = scan.nextInt();
 		System.out.println("given number is " + Isprime(num));
+		scan.close();
 	}
 }
