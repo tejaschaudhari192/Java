@@ -9,7 +9,8 @@ public class LearnSet {
 
         Set<Integer> set = new HashSet<>(); // random order of addings
         // Set<Integer> set = new LinkedHashSet<>(); // as per line order
-        Set<Integer> set = new TreeSet<>();
+        // Set<Integer> set = new TreeSet<>(); // in increasing order as bst
+        
         set.add(32);
         set.add(2);
         set.add(54);
