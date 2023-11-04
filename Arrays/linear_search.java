@@ -16,8 +16,8 @@ public class linear_search {
 		int n = scan.nextInt();
 		int res = search(arr, n);
 		if (res == -1) {
-			System.out.println("not found");
+			System.out.println("There is not a number found");
 		} else
-			System.out.println("Found at index " + res);
+			System.out.println("The number Found at index " + res);
 	}
 }
